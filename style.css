@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #1f2937;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-right: auto;
+}
+
+.header-link-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  flex-basis: 45vw;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 12px;
+  padding: 7px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.image-placeholder {
+  background-color: gray;
+  flex-basis: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid skyblue;
+  border-radius: 12px;
+}
+
+.info-header-text {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+.info-sub-text {
+  font-size: 18px;
+  font-weight: 100;
+}
+main ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 80vw;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+  padding: 100px;
+}
+
+.call {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-around;
+  padding: 20px;
+  width: 80vw;
+  margin: auto;
+}
+
+.call button {
+  border: 1px solid white;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 12px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px;
+  color: #f9faf8;
+  margin: 20px 5px;
+}
