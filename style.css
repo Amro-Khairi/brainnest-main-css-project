@@ -12,7 +12,7 @@ header {
   padding: 20px;
 }
 
-ul {
+.header-list {
   display: flex;
   list-style: none;
   gap: 10px;
@@ -73,12 +73,6 @@ button {
   align-items: center;
 }
 
-.info-container ul {
-  /* display: flex; */
-  list-style: none;
-  justify-content: space-around;
-}
-
 .info-header-text {
   text-align: center;
   font-size: 36px;
@@ -88,9 +82,25 @@ button {
 }
 
 .info-container {
-  width: 80vw;
-  height: auto;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.info-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .box {
@@ -103,6 +113,7 @@ button {
 .info-sub-text {
   font-size: 12px;
   font-weight: 100;
+  text-align: center;
 }
 
 .quote {
