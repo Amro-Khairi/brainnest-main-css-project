@@ -6,8 +6,10 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
 header {
   background-color: #1f2937;
+  padding: 20px;
 }
 
 ul {
@@ -27,11 +29,13 @@ ul {
   font-size: 18px;
   color: #e5e7eb;
   margin: 15px;
+  text-decoration: none;
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 20px 20px;
 }
 
 .description {
