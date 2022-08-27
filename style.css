@@ -81,17 +81,17 @@ button {
   margin-bottom: 10px;
 }
 
-.info-container {
+/* .info-container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .main-list {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .info-list-item {
