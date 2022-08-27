@@ -46,6 +46,7 @@ ul {
   font-size: 48px;
   color: #f9faf8;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .hero-secondary-text {
@@ -66,10 +67,30 @@ button {
 
 .image-placeholder {
   background-color: gray;
-  flex-basis: 45vw;
+  flex-basis: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info-container ul {
+  /* display: flex; */
+  list-style: none;
+  justify-content: space-around;
+}
+
+.info-header-text {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.info-container {
+  width: 80vw;
+  height: auto;
+  margin: auto;
 }
 
 .box {
@@ -79,21 +100,9 @@ button {
   border-radius: 12px;
 }
 
-.info-header-text {
-  text-align: center;
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: bolder;
-}
 .info-sub-text {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 100;
-}
-main ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  width: 80vw;
 }
 
 .quote {
